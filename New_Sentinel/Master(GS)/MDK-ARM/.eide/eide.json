@@ -1,0 +1,588 @@
+{
+  "name": "rp_template_hal_v1",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "Application",
+        "files": [],
+        "folders": [
+          {
+            "name": "Algo",
+            "files": [
+              {
+                "path": "../Application/Algo/circular_buffer.c"
+              },
+              {
+                "path": "../Application/Algo/dji_pid.c"
+              },
+              {
+                "path": "../Application/Algo/rp_math.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "BMI",
+            "files": [
+              {
+                "path": "../Application/BMI/bmi.c"
+              },
+              {
+                "path": "../Application/BMI/bmi2_common.c"
+              },
+              {
+                "path": "../Application/BMI/bmi2_ois.c"
+              },
+              {
+                "path": "../Application/BMI/bmi2.c"
+              },
+              {
+                "path": "../Application/BMI/bmi270_context.c"
+              },
+              {
+                "path": "../Application/BMI/bmi270.c"
+              },
+              {
+                "path": "../Application/BMI/soft_iic.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Cap",
+            "files": [
+              {
+                "path": "../Application/Cap/cap_protocol.c"
+              },
+              {
+                "path": "../Application/Cap/cap.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Chassic",
+            "files": [
+              {
+                "path": "../Application/Chassic/rp_chassis.c"
+              },
+              {
+                "path": "../Application/Chassic/chassic_Task.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Communicate",
+            "files": [
+              {
+                "path": "../Application/Communicate/can_protocol.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Driver",
+            "files": [
+              {
+                "path": "../Application/Driver/driver.c"
+              },
+              {
+                "path": "../Application/Driver/drv_adda.c"
+              },
+              {
+                "path": "../Application/Driver/drv_can.c"
+              },
+              {
+                "path": "../Application/Driver/drv_haltick.c"
+              },
+              {
+                "path": "../Application/Driver/drv_io.c"
+              },
+              {
+                "path": "../Application/Driver/drv_tim.c"
+              },
+              {
+                "path": "../Application/Driver/drv_uart.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Gimbal",
+            "files": [
+              {
+                "path": "../Application/Gimbal/rp_gimbal.c"
+              },
+              {
+                "path": "../Application/Gimbal/gimbal_Task.c"
+              },
+              {
+                "path": "../Application/Gimbal/master_Task.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Judge",
+            "files": [
+              {
+                "path": "../Application/Judge/judge.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "MDK-ARM",
+            "files": [
+              {
+                "path": "startup_stm32f407xx.s"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Motor",
+            "files": [
+              {
+                "path": "../Application/Motor/9015_motor.c"
+              },
+              {
+                "path": "../Application/Motor/3508_motor.c"
+              },
+              {
+                "path": "../Application/Motor/2006_motor.c"
+              },
+              {
+                "path": "../Application/Motor/6020_motor.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Oled",
+            "files": [
+              {
+                "path": "../Application/Oled/oled.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Remote",
+            "files": [
+              {
+                "path": "../Application/Remote/remote.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Shoot",
+            "files": [
+              {
+                "path": "../Application/Shoot/rp_shoot.c"
+              },
+              {
+                "path": "../Application/Shoot/shoot_Task.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "Task",
+            "files": [
+              {
+                "path": "../Application/Task/Check_task.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "User",
+            "files": [],
+            "folders": [
+              {
+                "name": "Core",
+                "files": [
+                  {
+                    "path": "../Core/Src/can.c"
+                  },
+                  {
+                    "path": "../Core/Src/dma.c"
+                  },
+                  {
+                    "path": "../Core/Src/freertos.c"
+                  },
+                  {
+                    "path": "../Core/Src/gpio.c"
+                  },
+                  {
+                    "path": "../Core/Src/iwdg.c"
+                  },
+                  {
+                    "path": "../Core/Src/main.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32f4xx_hal_msp.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32f4xx_hal_timebase_tim.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32f4xx_it.c"
+                  },
+                  {
+                    "path": "../Core/Src/tim.c"
+                  },
+                  {
+                    "path": "../Core/Src/usart.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          },
+          {
+            "name": "Vision",
+            "files": [
+              {
+                "path": "../Application/Vision/crc.c"
+              },
+              {
+                "path": "../Application/Vision/navigation.c"
+              },
+              {
+                "path": "../Application/Vision/vision.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "Config",
+        "files": [
+          {
+            "path": "../Application/Config/Car.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "../Core/Src/system_stm32f4xx.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "STM32F4xx_HAL_Driver",
+            "files": [
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "Middlewares",
+        "files": [],
+        "folders": [
+          {
+            "name": "FreeRTOS",
+            "files": [
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/croutine.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/list.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/queue.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/tasks.c"
+              },
+              {
+                "path": "../Middlewares/Third_Party/FreeRTOS/Source/timers.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "README",
+        "files": [],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "99b8a41873b60322dbb753c3dad6117a"
+  },
+  "targets": {
+    "rp_template_hal_v1": {
+      "excludeList": [],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x1c000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x2001c000",
+                "size": "0x4000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x80000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "ST",
+          "cpuName": "STM32F407VE"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../Core/Inc",
+          "../Drivers/STM32F4xx_HAL_Driver/Inc",
+          "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+          "../Middlewares/Third_Party/FreeRTOS/Source/include",
+          "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+          "../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+          "../Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+          "../Drivers/CMSIS/Include",
+          "../Application/Driver",
+          "../Application/Algo",
+          "../Application/BMI",
+          "../Application/Remote",
+          "../Application/Motor",
+          "../Application/Vision",
+          "../Application/Chassic",
+          "../Application/Communicate",
+          "../Application/Config",
+          "../Application/Gimbal",
+          "../Application/Shoot",
+          "../Application/Judge",
+          "../Application/Cap",
+          "../Application/Oled",
+          ".cmsis/include",
+          "RTE/_rp_template_hal_v1",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F407xx",
+          "STM32F407xx",
+          "USE_HAL_DRIVER",
+          "USE_STDPERIPH_DRIVER",
+          "ARM_MATH_CM4",
+          "ARM_MATH_M"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
