@@ -1,0 +1,27 @@
+
+TD0FC 000:251 SEGGER J-Link V4.90 Log File (0001ms, 0024ms total)
+TD0FC 000:251 DLL Compiled: Jul 28 2014 10:35:20 (0001ms, 0024ms total)
+TD0FC 000:251 Logging started @ 2024-04-05 15:07 (0001ms, 0024ms total)
+TD0FC 000:252 JLINK_SetWarnOutHandler(...) (0000ms, 0024ms total)
+TD0FC 000:252 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Apr 21 2017 11:08:06
+Hardware: V9.20
+S/N: 29999997
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash  returns O.K. (0032ms, 0056ms total)
+TD0FC 000:284 JLINK_SetErrorOutHandler(...) (0000ms, 0056ms total)
+TD0FC 000:284 JLINK_ExecCommand("ProjectFile = "D:\STM32(CubeMX)\Projects\2024_LJX\Projects\New_Sentinel_24\Head_R\MDK-ARM\JLinkSettings.ini"", ...)Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0005ms, 0061ms total)
+TD0FC 000:292 JLINK_ExecCommand("Device = STM32F407VETx", ...)Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0002ms, 0063ms total)
+TD0FC 000:294 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0063ms total)
+TD0FC 000:294 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0063ms total)
+TD0FC 000:294 JLINK_GetDLLVersion()  returns 49000 (0000ms, 0063ms total)
+TD0FC 000:294 JLINK_GetFirmwareString(...) (0000ms, 0063ms total)
+TD0FC 000:418 JLINK_GetDLLVersion()  returns 49000 (0000ms, 0063ms total)
+TD0FC 000:418 JLINK_GetCompileDateTime() (0000ms, 0063ms total)
+TD0FC 000:422 JLINK_GetFirmwareString(...) (0000ms, 0063ms total)
+TD0FC 000:426 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0063ms total)
+TD0FC 000:435 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0000ms, 0063ms total)
+TD0FC 000:435 JLINK_SetSpeed(5000) (0000ms, 0063ms total)
+TD0FC 000:435 JLINK_GetId() >0x108 TIF> >0x108 TIF>  returns 0x00000000 (0204ms, 0267ms total)
+TD0FC 002:700 JLINK_Close() (0001ms, 0268ms total)
+TD0FC 002:700  (0001ms, 0268ms total)
+TD0FC 002:700 Closed (0001ms, 0268ms total)

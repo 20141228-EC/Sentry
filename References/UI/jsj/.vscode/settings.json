@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ui_protocol.h": "c",
+        "judge_protocol.h": "c"
+    }
+}

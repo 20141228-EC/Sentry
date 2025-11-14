@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "rp_chassis.h": "c",
+            "rp_math.h": "c",
+            "6020_motor.h": "c",
+            "rp_gimbal.h": "c",
+            "remote.h": "c",
+            "mytype.h": "c",
+            "dji_pid.h": "c",
+            "navigation.h": "c",
+            "freertos.h": "c",
+            "task.h": "c"
+        }
+    },
+    "extensions": {}
+}

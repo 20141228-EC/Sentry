@@ -1,0 +1,68 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+#ignore folders
+.zip
+/.git
+/Projects/1-LED
+/Projects/2-USART
+/Projects/3-Naked
+/Projects/4-BMI-freeRTOS
+/Projects/5-CAN-Motor-freeRTOS
+/Projects/SENTRY
+/Projects/Sentinel_2023
+/Projects/Sentinel_2023_R_Head
+/Projects/Sentinel_CANErr_DBug
+/Projects/Sentinel
+/Projects/Dual_Servos_Chassis
+/Projects/6-Car-freeRTOS

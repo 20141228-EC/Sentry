@@ -1,0 +1,41 @@
+/* Includes ------------------------------------------------------------------*/
+#include "drv_spi.h"
+#include "main.h"
+/* Private macro -------------------------------------------------------------*/
+/* Private function prototypes -----------------------------------------------*/
+/* Private typedef -----------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Exported variables --------------------------------------------------------*/
+// extern SPI_HandleTypeDef hspi3;
+
+/* Private functions ---------------------------------------------------------*/
+/* Exported functions --------------------------------------------------------*/
+
+// uint8_t SPI_SendData(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout)
+// {
+
+// 	if(HAL_SPI_Transmit(hspi, pData, Size, Timeout) != HAL_OK)
+// 	{
+// 		return HAL_ERROR;
+// 	}
+// 	return HAL_OK;
+	
+// }
+
+// uint8_t rxBuf[50];
+
+// void SPI3_ReceiveData(uint8_t *rxBuf, uint16_t Size, uint32_t Timeout)
+// {
+// 	HAL_SPI_Receive(&hspi3, rxBuf, Size, Timeout);
+// }
+
+
+
+
+
+
+
+
+
+
+

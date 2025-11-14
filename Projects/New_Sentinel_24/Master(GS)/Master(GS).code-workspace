@@ -1,0 +1,37 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "rp_chassis.h": "c",
+            "rp_math.h": "c",
+            "6020_motor.h": "c",
+            "rp_gimbal.h": "c",
+            "remote.h": "c",
+            "mytype.h": "c",
+            "dji_pid.h": "c",
+            "navigation.h": "c",
+            "freertos.h": "c",
+            "task.h": "c",
+            "judge.h": "c",
+            "cap_protocol.h": "c",
+            "vision.h": "c",
+            "drv_spi.h": "c",
+            "main.h": "c",
+            "drv_io.h": "c",
+            "drv_can.h": "c",
+            "math.h": "c",
+            "stdlib.h": "c",
+            "driver.h": "c",
+            "drv_adda.h": "c",
+            "stm32f4xx_hal.h": "c",
+            "car.h": "c",
+            "judge_protocol.h": "c",
+            "can_protocol.h": "c"
+        }
+    },
+    "extensions": {}
+}
